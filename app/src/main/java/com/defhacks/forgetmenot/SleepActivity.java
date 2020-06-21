@@ -37,7 +37,7 @@ public class SleepActivity extends AppCompatActivity {
                 TimePickerDialog timePickerDialog = new TimePickerDialog(mContext, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                        mTimeTextView.setText(hourOfDay + ":" + minute);
+                        mTimeTextView.setText(String.format("%02d:%02d", hourOfDay, minute));
                     }
                 },hour,minute,android.text.format.DateFormat.is24HourFormat(mContext));
                 timePickerDialog.show();
