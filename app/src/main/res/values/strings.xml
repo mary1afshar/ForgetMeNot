@@ -11,4 +11,18 @@
     <string name="SleepTime">Set your sleep time: </string>
     <string name="PickTime">SET TIME</string>
     <string name="HourMinute">Hour:Minute</string>
+    <string name="HandWashingText">Hand-washing is one of the best ways to prevent the spread of germs and illnesses such as COVID-19. Pick a favourite song to wash your hands for at least 20 seconds.</string>
+    <string name="COVID19">For more info on COVID-19, visit this link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019</string>
+    <string name="PickSong">PICK SONG</string>
+    <string name="StayHydrated">Stay hydrated with at least 8 cups of water per day!</string>
+    <string name="WorkoutReminder">Set your workout reminder: </string>
+    <string name="HourMinute2">Hour:Minute</string>
+    <string name="AddWorkoutTime">Add new workout time</string>
+    <string name="PickWorkout">Choose your workout plan for today:</string>
+    <string name="Legs">Legs</string>
+    <string name="FullBody">Full Body HIIT</string>
+    <string name="UpperBody">Upper Body</string>
+    <string name="Abs">Abs</string>
+    <string name="Cardio">Cardio</string>
+    <string name="Arms">ARMS</string>
 </resources>
