@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ForgetMeNot</string>
+    <string name="WaterIntake">Water Intake</string>
+    <string name="WaterIntakeButton">WATER INTAKE</string>
+    <string name="WorkoutButton">WORKOUT</string>
+    <string name="HandWashingButton">HAND- WASHING</string>
+    <string name="SleepSchedule">SLEEP SCHEDULE</string>
 </resources>
