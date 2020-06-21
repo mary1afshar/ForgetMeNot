@@ -19,4 +19,20 @@ public class MainActivity extends BaseActivity {
         Intent intent = new Intent(this, WaterIntakeActivity.class);
         startActivity(intent);
     }
+
+    public void openHandwash(View view) {
+        Intent intent = new Intent(this, HandwashActivity.class);
+        startActivity(intent);
+    }
+
+    public void openWorkout(View view) {
+        Intent intent = new Intent(this, WorkoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSleep(View view) {
+        Intent intent = new Intent(this, SleepActivity.class);
+        startActivity(intent);
+    }
+
 }
