@@ -8,4 +8,7 @@
     <string name="HandWashing">Hand-Washing</string>
     <string name="Workout">Workout</string>
     <string name="SleepScheduleBar">Sleep Schedule</string>
+    <string name="SleepTime">Set your sleep time: </string>
+    <string name="PickTime">SET TIME</string>
+    <string name="HourMinute">Hour:Minute</string>
 </resources>
