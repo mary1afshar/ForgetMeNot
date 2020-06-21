@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A494C6A7"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B34BB5E4"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white">
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="113dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="WATER INTAKE"
+        app:layout_constraintBottom_toTopOf="@+id/wash"
+        app:layout_constraintEnd_toStartOf="@+id/workout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="113dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="WORKOUT"
+        app:layout_constraintBottom_toTopOf="@+id/sleep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/water"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_width="113dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="265dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="SLEEP SCHEDULE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wash"
+        app:layout_constraintTop_toBottomOf="@+id/workout" />
+
+    <Button
+        android:id="@+id/wash"
+        android:layout_width="113dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="265dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="HAND- WASHING"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sleep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water" />
+</androidx.constraintlayout.widget.ConstraintLayout>
