@@ -1,4 +1,5 @@
-# ForgetMeNot
+# ForgetMeNot 
+![alt text](https://github.com/nadinepi/ForgetMeNot/blob/master/app/src/main/res/drawable-xxhdpi/rsz_finallogo9.png?raw=true)
 
 Our app is made for students, by students. We took inspiration from ourselves! 
 We are all incoming first-year university students who are looking forward to the next chapter of our lives. 
