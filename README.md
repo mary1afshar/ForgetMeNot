@@ -12,4 +12,4 @@ maintain a workout routine, consistent sleep schedule, and wash their hands!
 	
 Forget-Me-Not was built on Android Studio, and will soon be integrated into Flutter for iOS development.
 
-##Made by: Nadine, Maryam, Angela & Shahrzad
+Made by: Nadine, Maryam, Angela & Shahrzad
