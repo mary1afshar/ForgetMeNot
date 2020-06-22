@@ -9,6 +9,15 @@ We know how hard it can be to build solid routines, let alone turn them into hab
 Forget-Me-Not is an app that reminds students to take care of themselves. 
 With personal customizations of preference, students will get daily reminders to help them keep track of their water intake, 
 maintain a workout routine, consistent sleep schedule, and wash their hands!
+
+## Features
+
+The Forget-Me-Not android app lets you:
+
+* Track your water intake
+* Set reminders to workout and access workout plans
+* Set reminders for bedtime
+* Wash your hands with a 20 second song clip to help prevent spread of COVID-19
 	
 Forget-Me-Not was built on Android Studio, and will soon be integrated into Flutter for iOS development.
 
