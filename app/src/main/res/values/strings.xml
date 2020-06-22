@@ -1,8 +1,36 @@
 <resources>
-    <string name="app_name">ForgetMeNot</string>
+    <string name="app_name">Forget-Me-Not</string>
     <string name="WaterIntake">Water Intake</string>
     <string name="WaterIntakeButton">WATER INTAKE</string>
     <string name="WorkoutButton">WORKOUT</string>
     <string name="HandWashingButton">HAND- WASHING</string>
     <string name="SleepSchedule">SLEEP SCHEDULE</string>
+    <string name="HandWashing">Hand-Washing</string>
+    <string name="Workout">Workout</string>
+    <string name="SleepScheduleBar">Sleep Schedule</string>
+    <string name="SleepTime">Set your sleep time: </string>
+    <string name="PickTime">SET TIME</string>
+    <string name="HourMinute">Hour:Minute</string>
+    <string name="HandWashingText">Hand-washing is one of the best ways to prevent the spread of germs and illnesses such as COVID-19. Pick a favourite song to wash your hands for at least 20 seconds.</string>
+    <string name="COVID19">For more info on COVID-19, visit this link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019</string>
+    <string name="PickSong">PICK SONG</string>
+    <string name="StayHydrated">Stay hydrated with at least 8 cups of water per day!</string>
+    <string name="WorkoutReminder">Set your workout reminder: </string>
+    <string name="HourMinute2">Hour:Minute</string>
+    <string name="AddWorkoutTime">Add new workout time</string>
+    <string name="PickWorkout">Choose your workout plan for today:</string>
+    <string name="Legs">Legs</string>
+    <string name="FullBody">Full Body HIIT</string>
+    <string name="UpperBody">Upper Body</string>
+    <string name="Abs">Abs</string>
+    <string name="Cardio">Cardio</string>
+    <string name="Arms">ARMS</string>
+    <string name="Cup1">250 ml</string>
+    <string name="Cup2">500 ml</string>
+    <string name="Cup3">750 ml</string>
+    <string name="Cup4">1000 ml</string>
+    <string name="Cup5">1250 ml</string>
+    <string name="Cup6">1500 ml</string>
+    <string name="Cup7">1750 ml</string>
+    <string name="Cup8">2000 ml</string>
 </resources>

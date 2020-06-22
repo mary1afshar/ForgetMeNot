@@ -19,66 +19,116 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/app_name"
         app:titleTextColor="@android:color/white">
+
     </androidx.appcompat.widget.Toolbar>
 
-    <Button
-        android:id="@+id/water"
-        android:layout_width="113dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="19dp"
-        android:backgroundTint="#FFFFFF"
-        android:onClick="openWater"
-        android:text="@string/WaterIntakeButton"
-        app:layout_constraintBottom_toTopOf="@+id/wash"
-        app:layout_constraintEnd_toStartOf="@+id/workout"
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="136dp"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.069">
 
-    <Button
-        android:id="@+id/workout"
-        android:layout_width="113dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="19dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="@string/WorkoutButton"
-        app:layout_constraintBottom_toTopOf="@+id/sleep"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/water"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        <Button
+            android:id="@+id/water"
+            android:layout_width="113dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openWater"
+            android:text="@string/WaterIntakeButton" />
 
-    <Button
-        android:id="@+id/sleep"
-        android:layout_width="113dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="265dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="@string/SleepSchedule"
+        <Button
+            android:id="@+id/wash"
+            android:layout_width="113dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openHandwash"
+            android:text="@string/HandWashingButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="47dp"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/wash"
-        app:layout_constraintTop_toBottomOf="@+id/workout" />
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.069">
 
-    <Button
-        android:id="@+id/wash"
-        android:layout_width="113dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="265dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="@string/HandWashingButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sleep"
+        <Button
+            android:id="@+id/workout"
+            android:layout_width="113dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openWorkout"
+            android:text="@string/WorkoutButton" />
+
+        <Button
+            android:id="@+id/sleep"
+            android:layout_width="113dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openSleep"
+            android:text="@string/SleepSchedule" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="12dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/water" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/forgetmenots" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="72dp"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/forgetmenots" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
