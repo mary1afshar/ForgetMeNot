@@ -18,7 +18,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/Workout"
-        app:titleTextColor="@android:color/white"></androidx.appcompat.widget.Toolbar>
+        app:titleTextColor="@android:color/white">
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
         android:id="@+id/textview5"
@@ -79,43 +80,50 @@
             android:id="@+id/checkBox3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
 
         <CheckBox
             android:id="@+id/checkBox7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:buttonTint="@color/blue"/>
     </LinearLayout>
 
     <LinearLayout

@@ -25,4 +25,12 @@
     <string name="Abs">Abs</string>
     <string name="Cardio">Cardio</string>
     <string name="Arms">ARMS</string>
+    <string name="Cup1">250 ml</string>
+    <string name="Cup2">500 ml</string>
+    <string name="Cup3">750 ml</string>
+    <string name="Cup4">1000 ml</string>
+    <string name="Cup5">1250 ml</string>
+    <string name="Cup6">1500 ml</string>
+    <string name="Cup7">1750 ml</string>
+    <string name="Cup8">2000 ml</string>
 </resources>
